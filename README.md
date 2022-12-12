@@ -1,16 +1,8 @@
-# advanced_widgets
+# Advanced Widgets
 
-A new Flutter project.
+Это учебное Flutter приложение  по созданию виджета, представляющего собой иконку текущей погоды. Данный виджет имеет два крайних состояния: ясно и очень облачно с дождём. Виджет имеет  параметр степень облачности, который может принимать значения от 0 до 1. В зависимости от значения параметра может меняться картинка и текст на иконке.
+Когда степень облачности равна нулю, то выводится солнце. Если степень облачности равна 0.2, то облако начинает проявляться и обретать непрозрачность. Если степень облачности  равна 0.5, то облако становится полностью непрозрачным. При дальнейшем увеличении степени облачности облако меняет цвет. При значении 1 скрывается солнце и выводится дождь.
+В виджете реализована возможность масштабирования иконки. Когда пользователь нажимает на иконку погоды, она увеличивается и появляется текстовая информация.
+В приложении реализована возможность выбора темной или светлой цветовой темы.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](advanced_widgets.gif)

@@ -1,0 +1,20 @@
+name: analyzer_package
+description: A new Flutter package.
+publish_to: none
+version: 0.0.1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pedantic: ^1.11.1
+  dart_code_metrics: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
